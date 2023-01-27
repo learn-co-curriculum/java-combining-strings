@@ -38,7 +38,7 @@ Consider the following code:
 ```java
 public class Main {
     public static void main(String[] args) {
-        String stringOne = "Hello!";
+        String stringOne = "Hello! ";
         String stringTwo = "My name is ";
         String name = "Tom";
         
