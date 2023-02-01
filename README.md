@@ -2,31 +2,56 @@
 
 ## Learning Goals
 
-- Learning Goal 1
-- Learning Goal 2
+- Use the `+` operator to concatenate `String` values.
 
 ## Introduction
 
-A 1-2 sentence summary of what will be covered.
+Earlier, we learned about the `+` operator in the context of numbers. Let's now
+see how we can use the `+` operator with `String` values.
 
-## Topic 1
+## Combining Operator
 
-Discuss the topic of the reading. Break into sections and sub-sections as
-appropriate to help with the reader's orientation with the material and future
-referencing.
+The `+` operator can apply to text in Java. For example:
 
-## Topic 2
+```java
+String greeting = "Hello, ";
+String name = "Maggie";
+String message = greeting + name;
+```
 
-Discuss the topic of the reading. Break into sections and sub-sections as
-appropriate to help with the reader's orientation with the material and future
-referencing.
+This would result in the variable `message` holding the value "Hello, Maggie".
+For variables of type `String`, the `+` operator concatenates both sides of the
+operator.
 
-## Conclusion
+Now consider the following statement:
 
-A short one or two paragraph summary of the contents of the lessons, recapping
-the learning goals.
+```java
+System.out.println(greeting + name);
+```
 
-## Resources
+The expression `greeting + name` returns the value "Hello, Maggie", which is
+then passed to the `println()` method, which prints it on the screen.
 
-- [Resource Link 1](example.com)
-- [Resource Link 2](example.com)
+## Comprehension Check
+
+Consider the following code:
+```java
+public class Main {
+    public static void main(String[] args) {
+        String stringOne = "Hello! ";
+        String stringTwo = "My name is ";
+        String name = "Tom";
+        
+        System.out.println(stringOne + stringTwo + name);
+    }
+}
+```
+
+<details>
+  <summary>What does the above program print out?</summary>
+
+  <p>Answer:<br><code>Hello! My name is Tom</code></p>
+
+  <p>Java will concatenate the three Strings together by using the `+` operand.</p>
+
+</details>
