@@ -35,6 +35,7 @@ then passed to the `println()` method, which prints it on the screen.
 ## Comprehension Check
 
 Consider the following code:
+
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -52,6 +53,6 @@ public class Main {
 
   <p>Answer:<br><code>Hello! My name is Tom</code></p>
 
-  <p>Java will concatenate the three Strings together by using the `+` operand.</p>
+  <p>Java will concatenate the three Strings together by using the <code>+</code> operand.</p>
 
 </details>
